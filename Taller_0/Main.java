@@ -88,6 +88,8 @@ public class Main {
         cuenta1.numero = "A101020267171";
         cuenta1.titular = "Ana Mar";
         cuenta1.saldo = 50000;
+        //cuenta1.mostrarCuenta();
+        cuenta1.consignar(300);
         cuenta1.mostrarCuenta();
         
         CuentaBancaria cuenta2 = new CuentaBancaria();
