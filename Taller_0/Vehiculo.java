@@ -13,4 +13,12 @@ public class Vehiculo {
     void acelerar () {
         velocidadActual += 10;
     }
+
+    void frenar () {
+        if (velocidadActual >= 10) {
+            velocidadActual -= 10; 
+        } else {
+            velocidadActual = 0;
+        }
+    }
  }
