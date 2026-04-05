@@ -5,6 +5,8 @@ public class Main {
         ejercicio6();
         ejercicio7();
         ejercicio8();
+        ejercicio9();
+        ejercicio10();
     }
 
     public static void ejercicio6() {
@@ -56,5 +58,38 @@ public class Main {
 
         System.out.println("~~~~~");
     }
-}
 
+    public static void ejercicio9() {
+        
+        Mascota mascota1 = new Mascota();
+        mascota1.nombre = "Kimmy";
+        mascota1.especie = "Gato";
+        mascota1.edad = 1;
+        System.out.println("Estado inicial de la mascota");
+        mascota1.mostrarMascota();
+
+        mascota1.edad = 3;
+
+        System.out.println("Estado despues del cambio");
+        mascota1.mostrarMascota();
+
+        System.out.println("~~~~~");
+    }
+
+    public static void ejercicio10() {
+
+        CuentaBancaria cuenta1 = new CuentaBancaria();
+        cuenta1.numero = "A101020267171";
+        cuenta1.titular = "Ana Mar";
+        cuenta1.saldo = 50000;
+        cuenta1.mostrarCuenta();
+        
+        CuentaBancaria cuenta2 = new CuentaBancaria();
+        cuenta2.numero = "A101020267025";
+        cuenta2.titular = "Valentina Moreno";
+        cuenta2.saldo = 5000000;
+        cuenta2.mostrarCuenta();
+
+        System.out.println("~~~~~");
+    }
+}
