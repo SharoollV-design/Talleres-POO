@@ -1,3 +1,4 @@
+package Taller_0;
 public class Estudiante{
     String nombre; 
     String codigo;

@@ -1,3 +1,4 @@
+package Taller_0;
 public class Mascota {
     String nombre;
     String especie;

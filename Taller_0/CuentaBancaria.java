@@ -1,3 +1,4 @@
+package Taller_0;
 public class CuentaBancaria {
     String numero;
     String titular;

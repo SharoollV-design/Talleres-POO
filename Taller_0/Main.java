@@ -1,3 +1,5 @@
+package Taller_0;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Taller #0 Sharooll");
@@ -25,7 +27,10 @@ public class Main {
         vehiculo1.marca = "Mazda";
         vehiculo1.modelo = "Mazda CX-30";
         vehiculo1.velocidadActual = 100;
+        vehiculo1.acelerar();
         vehiculo1.mostrarEstado();
+
+        System.out.println(" ");
         
         Vehiculo vehiculo2 = new Vehiculo();
         vehiculo2.marca = "Mercedes";

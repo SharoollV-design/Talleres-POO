@@ -1,3 +1,4 @@
+package Taller_0;
 public class Producto {
     String nombre;
     double precio;
