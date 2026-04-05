@@ -17,4 +17,8 @@ public class Producto {
             System.out.println("No tiene el suficiente stock");
         }
     }
+
+    void reabastecer(int cantidad) {
+        stock += cantidad; 
+    }
 }
