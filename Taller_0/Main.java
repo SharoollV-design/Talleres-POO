@@ -88,14 +88,16 @@ public class Main {
         cuenta1.numero = "A101020267171";
         cuenta1.titular = "Ana Mar";
         cuenta1.saldo = 50000;
-        //cuenta1.mostrarCuenta();
         cuenta1.consignar(300);
         cuenta1.mostrarCuenta();
+
+        System.out.println( " --- ");
         
         CuentaBancaria cuenta2 = new CuentaBancaria();
         cuenta2.numero = "A101020267025";
         cuenta2.titular = "Valentina Moreno";
         cuenta2.saldo = 5000000;
+        cuenta1.retirar(60000000);
         cuenta2.mostrarCuenta();
 
         System.out.println("~~~~~");
