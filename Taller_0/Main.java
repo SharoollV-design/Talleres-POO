@@ -48,6 +48,7 @@ public class Main {
         produc1.nombre = "Maleta";
         produc1.precio = 90.000;
         produc1.stock = 3;
+        produc1.vender(2);
         produc1.mostrarProducto();
 
         Producto produc2 = new Producto();
