@@ -36,6 +36,7 @@ public class Main {
         vehiculo2.marca = "Mercedes";
         vehiculo2.modelo = "Mercedes-AMG GT";
         vehiculo2.velocidadActual = 200;
+        vehiculo2.frenar();
         vehiculo2.mostrarEstado();
 
         System.out.println("~~~~~ ");
