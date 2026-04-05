@@ -51,11 +51,16 @@ public class Main {
         produc1.vender(2);
         produc1.mostrarProducto();
 
+        System.out.println("---");
+
         Producto produc2 = new Producto();
         produc2.nombre = "Billetera";
         produc2.precio = 60.000;
         produc2.stock = 2;
+        produc2.reabastecer(3);
         produc2.mostrarProducto();
+
+        System.out.println("---");
 
         Producto produc3 = new Producto();
         produc3.nombre = "Cinturon";
