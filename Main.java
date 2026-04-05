@@ -2,11 +2,12 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Taller #0 Sharooll");
 
+        ejercicio6();
         ejercicio7();
-        ejericio8();
+        ejercicio8();
     }
 
-    public static void ejercicio7() {
+    public static void ejercicio6() {
         Estudiante est1 = new Estudiante();
         est1.nombre = "Jessica Mateus";
         est1.codigo = "est1.Jess2026";
@@ -17,7 +18,7 @@ public class Main {
         System.out.println("~~~~~ ");
     }
 
-    public static void ejericio8() {
+    public static void ejercicio7() {
         Vehiculo vehiculo1 = new Vehiculo();
         vehiculo1.marca = "Mazda";
         vehiculo1.modelo = "Mazda CX-30";
@@ -29,6 +30,31 @@ public class Main {
         vehiculo2.modelo = "Mercedes-AMG GT";
         vehiculo2.velocidadActual = 200;
         vehiculo2.mostrarEstado();
+
+        System.out.println("~~~~~ ");
+    }
+
+    public static void ejercicio8() {
+        
+        Producto produc1 = new Producto();
+        produc1.nombre = "Maleta";
+        produc1.precio = 90.000;
+        produc1.stock = 3;
+        produc1.mostrarProducto();
+
+        Producto produc2 = new Producto();
+        produc2.nombre = "Billetera";
+        produc2.precio = 60.000;
+        produc2.stock = 2;
+        produc2.mostrarProducto();
+
+        Producto produc3 = new Producto();
+        produc3.nombre = "Cinturon";
+        produc3.precio = 55.000;
+        produc3.stock = 4;
+        produc3.mostrarProducto();
+
+        System.out.println("~~~~~");
     }
 }
 
