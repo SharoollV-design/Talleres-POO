@@ -110,6 +110,22 @@ public class Main {
         //System.out.println("Estado despues del cambio");
        // mascota1.mostrarMascota();
 
+       System.out.println("---");
+
+       Mascota mascota2 = new Mascota();
+       mascota2.nombre = "Canela";
+       mascota2.especie = "Gato";
+       mascota2.edad = 3;
+       mascota2.mostrarMascota();
+
+       System.out.println("---");
+
+       Mascota mascota3 = new Mascota();
+       mascota3.nombre = "Boss";
+       mascota3.especie = "Perro";
+       mascota3.edad = 8;
+       mascota3.mostrarMascota();
+
         System.out.println("~~~~~");
     }
 
