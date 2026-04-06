@@ -4,6 +4,16 @@ public class CuentaBancaria {
     String titular;
     double saldo;
 
+    public CuentaBancaria () {
+        
+    }
+
+    public CuentaBancaria(String numero, String titular, double saldo) {
+        this.numero = numero;
+        this.titular = titular;
+        this.saldo = saldo;
+    }
+
     void mostrarCuenta() {
         System.out.println("Numero de cuenta: " + numero);
         System.out.println("Titular de la cuenta: " + titular);
