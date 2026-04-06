@@ -24,6 +24,7 @@ public class Main {
         ejercicio53();
         ejercicio54();
         ejercicio55();
+        ejercicio56();
 
     }
 
@@ -404,6 +405,11 @@ public class Main {
         r1.mostrarHora();
 
         System.out.println("~~~~~");
+    }
+    
+    public static void ejercicio56() {
+        Temperatura temp1 = new Temperatura(45);
+        temp1.convertir();
     }
 
     
