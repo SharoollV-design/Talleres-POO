@@ -77,13 +77,14 @@ public class Main {
         mascota1.nombre = "Kimmy";
         mascota1.especie = "Gato";
         mascota1.edad = 1;
-        System.out.println("Estado inicial de la mascota");
+        mascota1.cumplirAnios();
+        //System.out.println("Estado inicial de la mascota");
         mascota1.mostrarMascota();
 
-        mascota1.edad = 3;
+        //mascota1.edad = 3;
 
-        System.out.println("Estado despues del cambio");
-        mascota1.mostrarMascota();
+        //System.out.println("Estado despues del cambio");
+       // mascota1.mostrarMascota();
 
         System.out.println("~~~~~");
     }
