@@ -15,10 +15,18 @@ public class Vehiculo {
     }
 
     void frenar () {
-        if (velocidadActual >= 10) {
-            velocidadActual -= 10; 
-        } else {
-            velocidadActual = 0;
+      if (velocidadActual >= 10) {
+        velocidadActual -= 10; 
+       } else {
+           velocidadActual = 0;
         }
-    }
- }
+   }
+}
+
+  //void frenar () {
+    //    if (velocidadActual >= 10) {
+     //       velocidadActual -= 10; 
+    //    } else {
+    //        velocidadActual = 0;
+     //   }
+   // }
