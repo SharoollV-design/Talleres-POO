@@ -16,7 +16,7 @@ public class Main {
         est1.nombre = "Jessica Mateus";
         est1.codigo = "est1.Jess2026";
         est1.semestre = 6;
-
+        est1.cambiarSemestre(8);
         est1.mostrarInfo();
 
         System.out.println("~~~~~ ");
