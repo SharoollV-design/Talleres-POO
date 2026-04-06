@@ -14,6 +14,10 @@ public class Producto {
         this.stock = stock;
     }
 
+    static Producto crearProductoBasico(String nombre, double precio, int stock) {
+        return new Producto(nombre, precio, stock);
+    }
+
     void mostrarProducto() {
         System.out.println("Nombre del producto: " + nombre);
         System.out.println("Precio: " + precio);
