@@ -1,5 +1,4 @@
 package Taller_0;
-
 public class Rectangulo {
     double altura;
     double base;
