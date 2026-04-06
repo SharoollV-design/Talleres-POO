@@ -27,6 +27,6 @@ public class Celular {
     void mostrarInfo() {
         System.out.println("Marca: " + marca);
         System.out.println("Bateria: " + bateria);
-         System.out.println("Celular " + (prendido ? "Encendido" : "Apagado"));
+        System.out.println("Celular " + (prendido ? "Encendido" : "Apagado"));
     }
 }
