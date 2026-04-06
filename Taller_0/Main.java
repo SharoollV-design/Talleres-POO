@@ -12,6 +12,13 @@ public class Main {
         ejercicio22();
         ejercicio35();
         ejercicio36();
+        ejercicio37();
+        ejercicio38();
+        ejercicio39();
+        ejercicio40();
+        ejercicio42();
+        ejercicio43();
+        ejercicio44();
 
     }
 
@@ -23,7 +30,7 @@ public class Main {
         est1.cambiarSemestre(8);
         est1.mostrarInfo();
 
-        System.out.println("---");
+        System.out.println("  ");
 
         Estudiante est2 = new Estudiante();
         est2.nombre = "Caleb A";
@@ -31,7 +38,7 @@ public class Main {
         est2.semestre = 3;
         est2.mostrarInfo();
 
-        System.out.println("---");
+        System.out.println("  ");
 
         Estudiante est3 = new Estudiante();
         est3.nombre = "Sharoll M";
@@ -39,7 +46,7 @@ public class Main {
         est3.semestre = 2;
         est3.mostrarInfo();
 
-        System.out.println("---");
+        System.out.println("  ");
 
         Estudiante est4 = new Estudiante();
         est4.nombre = "Juan Pablo";
@@ -97,7 +104,7 @@ public class Main {
         produc1.vender(2);
         produc1.mostrarProducto();
 
-        System.out.println("---");
+        System.out.println("  ");
 
         Producto produc2 = new Producto();
         produc2.nombre = "Billetera";
@@ -262,11 +269,72 @@ public class Main {
 
     }
     
-
     public static void ejercicio36() {
         Puerta puerta1 = new Puerta("Madera");
         puerta1.mostrarInfo();
         puerta1.abrir();
         puerta1.mostrarInfo();
+
+        System.out.println("~~~~~~");
     }
+
+    public static void ejercicio37() {
+        Celular celular1 = new Celular("Samsung", 15);
+        celular1.mostrarInfo();
+        celular1.encender();
+        celular1.cargarBateria();
+        celular1.mostrarInfo(); 
+
+        System.out.println("~~~~~");
+    }
+
+    public static void ejercicio38() {
+        Ventilador miVentilador = new Ventilador("Samurai", 0);
+        miVentilador.mostrarInfo(); 
+        miVentilador.encender();
+        miVentilador.subirVelocidad();
+        miVentilador.mostrarInfo();
+
+        System.out.println("~~~~");
+    }
+
+    public static void ejercicio39() {
+        Cancion cancion1 = new Cancion("El ciervo", "sonido de gloria", "3:40");
+        cancion1.mostrarInfo(); 
+    }
+
+    public static void ejercicio40() {
+        pelicula pelicula1 = new pelicula("Moana", "Animada, infantil", "1:45 h");
+        pelicula1.mostrarFicha();
+
+        System.out.println("~~~~~");
+    }
+
+    public static void ejercicio42() {
+        Curso curso1 = new Curso("Matematicas", 10);
+        curso1.mostrarInfo();
+
+        System.out.println(" ");
+
+        Curso curso2 = new Curso("Sociales", 7);
+        curso2.mostrarInfo();
+
+        System.out.println("~~~~~");
+
+    }
+
+    public static void ejercicio43() {
+        Computador computador1 = new Computador("lenovo", 8);
+        computador1.mostrarInfo();
+
+        System.out.println("~~~~~");
+    }
+
+    public static void ejercicio44() {
+        Paciente paciente1 = new Paciente("Sara", "gripa", 20);
+        paciente1.mostrarInfo();
+
+        System.out.println("~~~~~");
+    }
+
 }
