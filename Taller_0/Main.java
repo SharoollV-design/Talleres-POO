@@ -94,6 +94,11 @@ public class Main {
         produc3.stock = 4;
         produc3.mostrarProducto();
 
+        System.out.println("---");
+
+        Producto produc5 = new Producto("Blusa", 70.000, 7);
+        produc5.mostrarProducto();
+
         System.out.println("~~~~~");
     }
 
