@@ -184,7 +184,13 @@ public class Main {
         lib4.cantidad = 600;
         lib4.mostrarInfo();
 
+        System.out.println("---");
+
+        Libro lib5 = new Libro("Emma", "Jane Austen", 1000);
+        lib5.mostrarInfo();
+
         System.out.println("~~~~~~");
+
         
     }
 }
