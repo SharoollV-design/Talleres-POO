@@ -15,6 +15,11 @@ public class Libro {
         this.cantidad = cantidad;
     }
     
+    Libro (Libro otro) {
+        this.titulo = otro.titulo;
+        this.autor = otro.autor;
+        this.cantidad = otro.cantidad;
+    }
     void mostrarInfo() {
         System.out.println("Titulo: " + titulo);
         System.out.println("Autor del libro: " + autor);
