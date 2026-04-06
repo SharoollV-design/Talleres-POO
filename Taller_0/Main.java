@@ -208,7 +208,7 @@ public class Main {
         lib1.cantidad = 435;
         lib1.mostrarInfo();
 
-        System.out.println("---");
+        System.out.println("   ");
 
         Libro lib2 = new Libro();
         lib2.autor = "Alice Kellen";
@@ -216,7 +216,7 @@ public class Main {
         lib2.cantidad = 500;
         lib2.mostrarInfo(); 
 
-        System.out.println("---");
+        System.out.println("   ");
 
         Libro lib3 = new Libro();
         lib3.autor = "Karine Bernal";
@@ -224,7 +224,7 @@ public class Main {
         lib3.cantidad = 455;
         lib3.mostrarInfo();
 
-        System.out.println("---");
+        System.out.println("   ");
 
         Libro lib4 = new Libro();
         lib4.autor = "Jane Austen";
@@ -232,10 +232,23 @@ public class Main {
         lib4.cantidad = 600;
         lib4.mostrarInfo();
 
-        System.out.println("---");
+        System.out.println("   ");
 
         Libro lib5 = new Libro("Emma", "Jane Austen", 1000);
         lib5.mostrarInfo();
+
+        System.out.println("   ");
+
+        Libro LibOriginal = new Libro("La hipotesis del amor", "Ali Hazelwood", 380);
+        System.out.println("Libro original ");
+        LibOriginal.mostrarInfo();
+
+        Libro LibCopia = new Libro(LibOriginal);
+        System.out.println("Libro copia ");
+        LibCopia.mostrarInfo();
+
+
+
 
         System.out.println("~~~~~~");
 
