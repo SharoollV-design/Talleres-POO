@@ -19,7 +19,11 @@ public class Main {
         ejercicio42();
         ejercicio43();
         ejercicio44();
-    
+        ejercicio51();
+        ejercicio52();
+        ejercicio53();
+        ejercicio54();
+        ejercicio55();
 
     }
 
@@ -357,6 +361,49 @@ public class Main {
         // Tenemos la clase Paciente con su respectivo objeto 
         // y si revisamos todas las clases, todas tienen su como minimo un objeto.
         // Aun asi si dejamos todo vacio solo con un System.out.println nos faltaría el objeto de la clase. 
+    }
+
+    public static void ejercicio51() {
+        Rectangulo rect1 = new Rectangulo(7, 5);
+        rect1.mostrarResultado();
+
+        System.out.println("~~~~~");
+    }
+
+    public static void ejercicio52() {
+        FacturaSimple factura1 = new FacturaSimple(1, "Sara", 14.000);
+        factura1.mostrarCuenta();
+
+        System.out.println("~~~~~");
+    }
+
+    public static void ejercicio53() {
+        Reserva reserva1 = new Reserva("Santiago", "15 de junio");
+        reserva1.confirmar();
+        reserva1.mostrarInfo();
+
+        System.out.println(" ");
+
+        reserva1.cancelar();
+        reserva1.mostrarInfo();
+
+        System.out.println("~~~~~");
+    }
+
+    public static void ejercicio54() {
+        Semaforo semaforo1 = new Semaforo("Verde");
+        semaforo1.cambiarColor();
+        semaforo1.cambiarColor();
+
+        System.out.println("~~~~~");
+        
+    }
+
+    public static void ejercicio55() {
+        Reloj r1 =  new Reloj(6, 10, 55);
+        r1.mostrarHora();
+
+        System.out.println("~~~~~");
     }
 
     
