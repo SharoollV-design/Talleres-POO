@@ -117,6 +117,16 @@ public class Main {
         Producto produc5 = new Producto("Blusa", 70.000, 7);
         produc5.mostrarProducto();
 
+        System.out.println("  ");
+
+        Producto produc6 = Producto.crearProductoBasico("Camisa", 20.000, 3);
+        produc6.mostrarProducto();
+
+        System.out.println("  ");
+
+        Producto produc7 = Producto.crearProductoBasico("Vestido", 99.000, 10);
+        produc7.mostrarProducto();
+
         System.out.println("~~~~~");
     }
 
