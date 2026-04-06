@@ -19,6 +19,30 @@ public class Main {
         est1.cambiarSemestre(8);
         est1.mostrarInfo();
 
+        System.out.println("---");
+
+        Estudiante est2 = new Estudiante();
+        est2.nombre = "Caleb A";
+        est2.codigo = "est2.Caleb2026";
+        est2.semestre = 3;
+        est2.mostrarInfo();
+
+        System.out.println("---");
+
+        Estudiante est3 = new Estudiante();
+        est3.nombre = "Sharoll M";
+        est3.codigo = "est3.Sharoll2026";
+        est3.semestre = 2;
+        est3.mostrarInfo();
+
+        System.out.println("---");
+
+        Estudiante est4 = new Estudiante();
+        est4.nombre = "Juan Pablo";
+        est4.codigo = "est4.JuanPa2026";
+        est4.semestre = 7;
+        est4.mostrarInfo();
+
         System.out.println("~~~~~ ");
     }
 
