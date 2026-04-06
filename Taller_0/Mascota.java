@@ -9,4 +9,9 @@ public class Mascota {
         System.out.println("Especie: " + especie);
         System.out.println("Edad: " + edad);
     }
+
+    void cumplirAnios() {
+        edad += 1;
+        System.out.println( nombre + " Cumplio un año");
+    }
 }
