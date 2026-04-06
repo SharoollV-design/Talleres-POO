@@ -352,6 +352,11 @@ public class Main {
         Paciente paciente2 = new Paciente("Camila", "Varicela", 15);
         paciente2.mostrarInfo();
         System.out.println("~~~~~");
+
+        // Ejercicio 50 
+        // Tenemos la clase Paciente con su respectivo objeto 
+        // y si revisamos todas las clases, todas tienen su como minimo un objeto.
+        // Aun asi si dejamos todo vacio solo con un System.out.println nos faltaría el objeto de la clase. 
     }
 
     
