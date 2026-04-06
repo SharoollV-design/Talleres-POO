@@ -9,6 +9,8 @@ public class Main {
         ejercicio8();
         ejercicio9();
         ejercicio10();
+        ejercicio22();
+
     }
 
     public static void ejercicio6() {
@@ -114,7 +116,7 @@ public class Main {
 
        Mascota mascota2 = new Mascota();
        mascota2.nombre = "Canela";
-       mascota2.especie = "Gato";
+       mascota2.especie = "Perro";
        mascota2.edad = 3;
        mascota2.mostrarMascota();
 
@@ -148,5 +150,41 @@ public class Main {
         cuenta2.mostrarCuenta();
 
         System.out.println("~~~~~");
+    }
+
+    public static void ejercicio22() {
+
+        Libro lib1 = new Libro();
+        lib1.autor = "Joana Marcus";
+        lib1.titulo = "Antes de diciembre";
+        lib1.cantidad = 435;
+        lib1.mostrarInfo();
+
+        System.out.println("---");
+
+        Libro lib2 = new Libro();
+        lib2.autor = "Alice Kellen";
+        lib2.titulo = "Nosotros en la luna";
+        lib2.cantidad = 500;
+        lib2.mostrarInfo(); 
+
+        System.out.println("---");
+
+        Libro lib3 = new Libro();
+        lib3.autor = "Karine Bernal";
+        lib3.titulo = "El corazón del rey";
+        lib3.cantidad = 455;
+        lib3.mostrarInfo();
+
+        System.out.println("---");
+
+        Libro lib4 = new Libro();
+        lib4.autor = "Jane Austen";
+        lib4.titulo = "Orgullo y prejuicio";
+        lib4.cantidad = 600;
+        lib4.mostrarInfo();
+
+        System.out.println("~~~~~~");
+        
     }
 }
