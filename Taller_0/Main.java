@@ -154,6 +154,21 @@ public class Main {
         cuenta1.retirar(60000000);
         cuenta2.mostrarCuenta();
 
+        System.out.println("---");
+
+        CuentaBancaria cuenta3 = new CuentaBancaria("A101020264567", "Andres Rodriguez", 2000); 
+        cuenta3.mostrarCuenta();
+
+        System.out.println(" ");
+
+        CuentaBancaria cuenta4 = new CuentaBancaria("A101020265678", "Viviana V", 10000000);
+        cuenta4.mostrarCuenta();
+
+        System.err.println(" ");
+        
+        CuentaBancaria cuenta5 = new CuentaBancaria("A101020262029", "Carlos R", 55000);
+        cuenta5.mostrarCuenta();
+
         System.out.println("~~~~~");
     }
 
