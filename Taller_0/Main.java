@@ -45,6 +45,24 @@ public class Main {
         est4.semestre = 7;
         est4.mostrarInfo();
 
+        System.out.println(" ");
+
+        Estudiante est5 = new Estudiante();
+        est5.nombre = "Sara";
+        est5.codigo = "est5.Sara2026";
+        est5.semestre = 1;
+        est5.mostrarInfo();
+
+        System.out.println(" ");
+
+        Estudiante est6 = new Estudiante("Jairo", "est6,Jairo2026");
+        est6.mostrarInfo();
+
+        System.out.println();
+
+        Estudiante est7 = new Estudiante("Sofia", "est7.Sofia2026", 9);
+        est7.mostrarInfo();
+
         System.out.println("~~~~~ ");
     }
 
@@ -165,7 +183,7 @@ public class Main {
         cuenta4.mostrarCuenta();
 
         System.err.println(" ");
-        
+
         CuentaBancaria cuenta5 = new CuentaBancaria("A101020262029", "Carlos R", 55000);
         cuenta5.mostrarCuenta();
 
