@@ -19,6 +19,7 @@ public class Main {
         ejercicio42();
         ejercicio43();
         ejercicio44();
+    
 
     }
 
@@ -71,6 +72,16 @@ public class Main {
 
         Estudiante est7 = new Estudiante("Sofia", "est7.Sofia2026", 9);
         est7.mostrarInfo();
+
+        System.out.println(" ");
+
+        // Ejercicio 49
+        // est8.nombre = "Sofia";
+        // nombre = "Carlos";
+
+        // Corrección 
+        // est8.nombre = "Sofia";
+        // est9.nombre "Carlos";
 
         System.out.println("~~~~~ ");
     }
@@ -333,8 +344,15 @@ public class Main {
     public static void ejercicio44() {
         Paciente paciente1 = new Paciente("Sara", "gripa", 20);
         paciente1.mostrarInfo();
+        System.out.println("   ");
+        // Ejercicio 47 
+        //paciente1.nombre "Ana";
 
+        //Su correccion
+        Paciente paciente2 = new Paciente("Camila", "Varicela", 15);
+        paciente2.mostrarInfo();
         System.out.println("~~~~~");
     }
 
+    
 }
