@@ -5,6 +5,9 @@ public class Libro {
     String autor;
     int cantidad;
 
+    public Libro() {
+        
+    }
     void mostrarInfo() {
         System.out.println("Titulo: " + titulo);
         System.out.println("Autor del libro: " + autor);
