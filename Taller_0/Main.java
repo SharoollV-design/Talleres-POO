@@ -10,6 +10,8 @@ public class Main {
         ejercicio9();
         ejercicio10();
         ejercicio22();
+        ejercicio35();
+        ejercicio36();
 
     }
 
@@ -247,11 +249,24 @@ public class Main {
         System.out.println("Libro copia ");
         LibCopia.mostrarInfo();
 
+        System.out.println("~~~~~~");  
+    }
 
+    public static void ejercicio35() {
+        Lampara lampara1 = new Lampara("Falabella");
+        lampara1.mostrarInfo();
+        lampara1.encender(); 
+        lampara1.mostrarInfo();
 
+        System.out.println("~~~~~");
 
-        System.out.println("~~~~~~");
+    }
+    
 
-        
+    public static void ejercicio36() {
+        Puerta puerta1 = new Puerta("Madera");
+        puerta1.mostrarInfo();
+        puerta1.abrir();
+        puerta1.mostrarInfo();
     }
 }
