@@ -32,6 +32,7 @@ public class Main {
         ejercicio61();
         ejercicio62();
         ejercicio63();
+        ejercicio69();
 
     }
 
@@ -477,5 +478,32 @@ public class Main {
         hospital1.mostrarInfo();
 
         System.out.println("~~~~~");
+    }
+
+    public static void ejercicio69() {
+        Cafeteria caf1 = new Cafeteria("Migas y cafe", "Calle 6 con carrera 70", "Capuccino");
+        caf1.mostrarInfo();
+
+        System.out.println("  ");
+
+        Cafeteria caf2 = new Cafeteria("Coffee and Jesus", "Calle 100", "Malteadas");
+        caf2.mostrarInfo();
+
+        System.out.println("  ");
+
+        Cafeteria caf3 = new Cafeteria("Juan Valdes", "Centro, calle 4", "Espresso");
+        caf3.mostrarInfo();
+
+        System.out.println(" ");
+
+        Cafeteria caf4 = new Cafeteria("Starbuck", "Manga calle 9", "Brownies");
+        caf4.mostrarInfo();
+
+        System.out.println("  ");
+
+        Cafeteria caf5 = new Cafeteria("Hornitos", "Plaza central", "Brazo de reina");
+        caf5.mostrarInfo();
+
+        System.out.println("~~~~~~");
     }
 }
