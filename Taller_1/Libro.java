@@ -6,9 +6,9 @@ public class Libro {
     private int numeroPaginas;
 
     public Libro() {
-        titulo = "Antes de diciembre";
-        autor = "Joana Marcus";
-        numeroPaginas = 410;
+        titulo = "Sin titulo";
+        autor = "Autor desconocido";
+        numeroPaginas = 1;
     }
 
     public Libro(String titulo, String autor, int numeroPaginas) {
