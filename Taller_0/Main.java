@@ -30,6 +30,7 @@ public class Main {
         ejercicio59();
         ejercicio60();
         ejercicio61();
+        ejercicio62();
 
     }
 
@@ -457,5 +458,13 @@ public class Main {
         System.out.println("~~~~~");
     }
 
-    
+    public static void ejercicio62() {
+        Biblioteca bibli1 = new Biblioteca("Terror", 50, "it");
+        bibli1.mostrarInfo();
+
+        System.out.println(" ");
+
+        bibli1.cambiarGenero("Misterio");
+        bibli1.mostrarInfo();
+    }
 }
