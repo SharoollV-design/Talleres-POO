@@ -31,6 +31,7 @@ public class Main {
         ejercicio60();
         ejercicio61();
         ejercicio62();
+        ejercicio63();
 
     }
 
@@ -466,5 +467,15 @@ public class Main {
 
         bibli1.cambiarGenero("Misterio");
         bibli1.mostrarInfo();
+
+        System.out.println("~~~~~");
+    }
+
+    public static void ejercicio63() {
+        Hospital hospital1 = new Hospital("Ana Maria", "Obstetricia");
+        hospital1.cambiarNombre("Sofia V");
+        hospital1.mostrarInfo();
+
+        System.out.println("~~~~~");
     }
 }
