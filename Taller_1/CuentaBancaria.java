@@ -6,9 +6,9 @@ public class CuentaBancaria {
     private String tipoCuenta;
 
     public CuentaBancaria() {
-        this.numeroCuenta = "SV12345678";
+        this.numeroCuenta = "000000";
         this.saldo = 0.0;
-        this.tipoCuenta = "Ahorros";
+        this.tipoCuenta = "Desconocido";
     }
 
     public CuentaBancaria(String numeroCuenta, String tipoCuenta) {
