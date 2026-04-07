@@ -27,6 +27,7 @@ public class Main {
         ejercicio56();
         ejercicio57();
         ejercicio58();
+        ejercicio59();
 
     }
 
@@ -426,6 +427,14 @@ public class Main {
         InventarioItem inv1 = new InventarioItem("Camisa", 3, 15000);
         inv1.valorTotal();
         System.out.println("~~~~~");
+    }
+
+    public static void ejercicio59() {
+        UsuarioSistema usu1 = new UsuarioSistema("Sharoll_29", "S0604");
+        usu1.activar();
+        usu1.mostrarInfo();
+        usu1.desactivar();
+        usu1.mostrarInfo();
     }
 
     
