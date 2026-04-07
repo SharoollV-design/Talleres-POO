@@ -25,6 +25,7 @@ public class Main {
         ejercicio54();
         ejercicio55();
         ejercicio56();
+        ejercicio57();
 
     }
 
@@ -410,9 +411,16 @@ public class Main {
     public static void ejercicio56() {
         Temperatura temp1 = new Temperatura(45);
         temp1.convertir();
+
+        System.out.println("~~~~~");
     }
 
-    //public static void ejercicio57(){}
+    public static void ejercicio57(){
+        NotaAcademica not1 = new NotaAcademica("Matematicas", 4, 3, 2);
+        not1.calcularDefinitiva();
+        System.out.println("~~~~~");
+    }
+
 
     
 }
