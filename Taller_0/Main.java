@@ -28,6 +28,8 @@ public class Main {
         ejercicio57();
         ejercicio58();
         ejercicio59();
+        ejercicio60();
+        ejercicio61();
 
     }
 
@@ -435,6 +437,24 @@ public class Main {
         usu1.mostrarInfo();
         usu1.desactivar();
         usu1.mostrarInfo();
+
+        System.out.println("~~~~~");
+    }
+
+    public static void ejercicio60() {
+        Avion vuelo1 = new Avion("Avianca", "Bogota D.C", 100);
+        vuelo1.abordar(75);
+        vuelo1.mostrarInfo();
+
+        System.out.println("~~~~~");
+    }
+
+    public static void ejercicio61() {
+        Docente docente1 = new Docente("Rafael Muñoz", "Calculo diferencial", "Universidad Militar");
+        docente1.cambiarMateria("Filosofia");
+        docente1.mostrarInfo();
+
+        System.out.println("~~~~~");
     }
 
     
