@@ -26,6 +26,7 @@ public class Main {
         ejercicio55();
         ejercicio56();
         ejercicio57();
+        ejercicio58();
 
     }
 
@@ -420,7 +421,12 @@ public class Main {
         not1.calcularDefinitiva();
         System.out.println("~~~~~");
     }
-
+   
+    public static void ejercicio58(){
+        InventarioItem inv1 = new InventarioItem("Camisa", 3, 15000);
+        inv1.valorTotal();
+        System.out.println("~~~~~");
+    }
 
     
 }
