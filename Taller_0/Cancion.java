@@ -9,6 +9,11 @@ public class Cancion {
         this.artista = artista;
         this.duracion = duracion;
     }
+
+    static Cancion crearCancionBasico(String titulo, String artista, String duracion){
+        return new Cancion(titulo, artista, duracion);
+    }
+    
     void mostrarInfo() {
         System.out.println("Titulo de la cancion: " + titulo);
         System.out.println("Artista: " + artista);
