@@ -9,13 +9,8 @@ public class Estudiante {
     }
 
     public Estudiante(String nombre, int edad) {
-        if (nombre != null && !nombre.isEmpty()){
-            this.nombre = nombre;
-        } else { 
-            System.out.println("No tiene nombre, se asigno 'Sin nombre' ");
-        }
-       
-        this.edad = 0;
+        this.nombre = nombre;
+        this.edad = edad;
     }
 
     public String getNombre(){
