@@ -55,7 +55,6 @@ public class Estudiante {
         if(nombre != null && !nombre.isEmpty()){
             this.nombre = nombre;
         } else {
-            System.out.println("No se registra nombre, se asigna por defecto 'Estudiante'");
             this.nombre = "Estudiante";
         }
     }
@@ -64,7 +63,6 @@ public class Estudiante {
         if(edad>0){
             this.edad = edad;
         } else {
-            System.out.println("No se registra edad, se asigna por defecto '0'");
             this.edad = 0;
         }
     }
@@ -74,4 +72,15 @@ public class Estudiante {
             this.curso = curso;
         }
     }
+
+    @Override
+    public String toString() {
+        return "Estudiante - " +
+        "Nombre= '" + nombre + '\'' +
+        ", Edad= '" + edad +  '\'' +
+        ", Curso= " + curso +
+        '-';
+    }
+
+
 }
