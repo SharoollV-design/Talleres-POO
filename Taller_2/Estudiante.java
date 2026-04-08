@@ -1,8 +1,8 @@
 package Taller_2;
 
 public class Estudiante {
-    String nombre;
-    int edad; 
+    private String nombre;
+    private int edad; 
 
     public Estudiante() {
         this("Sin nombre", 0);
