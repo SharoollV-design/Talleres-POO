@@ -15,10 +15,11 @@ public class Libro {
         if(titulo != null && !titulo.isEmpty()){
           this.titulo = titulo;   
         } else {
+            System.out.println("No tiene titulo, se asigno 'Sin titulo' ");
             this.titulo = "Sin titulo";
         }
 
-        if(autor != null && !titulo.isEmpty()){
+        if(autor != null && !autor.isEmpty()){
             this.autor = autor;
         } else {
             this.autor = "Autor desconocido";
@@ -62,10 +63,18 @@ public class Libro {
         }
     }
     
-    
     void mostrarDetalles() {
         System.out.println("Titulo: " + titulo);
         System.out.println("Autor: " + autor);
         System.out.println("Numero de paginas: " + numeroPaginas);
+    }
+
+    @Override
+    public String toString(){
+        return "Libro - " +
+        "Titulo= '" + titulo + '\'' +
+        ", Autor= '" + autor + '\'' +
+        ", Numero de Paginas= " + numeroPaginas +
+        '-';
     }
 }
