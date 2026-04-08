@@ -22,7 +22,6 @@ public class CuentaBancaria {
         if(tipoCuenta != null && !tipoCuenta.isEmpty()) {
             this.tipoCuenta = tipoCuenta;
         } else {
-            System.out.println("Tipo de cuenta sin especificar se asignara 'Desconocido");
             this.tipoCuenta = "Desconocido";
         }
 
@@ -40,14 +39,13 @@ public class CuentaBancaria {
         if(saldo < 0) {
             this.saldo = saldo;
         } else {
-            System.out.println("Saldo errado, se le asigno '0' ");
             this.saldo = 0.0;
         }
 
         if(tipoCuenta != null && !tipoCuenta.isEmpty()) {
             this.tipoCuenta = tipoCuenta;
         } else {
-            System.out.println("Tipo de cuenta sin especificar se asignara 'Desconocido");
+            System.out.println("Tipo de cuenta sin especificar se asignara 'Desconocido' ");
             this.tipoCuenta = "Desconocido";
         }
 
@@ -70,7 +68,6 @@ public class CuentaBancaria {
         if(numeroCuenta != null && numeroCuenta.isEmpty()){
             this.numeroCuenta = numeroCuenta;
         } else {
-            System.out.println("Numero de cuenta sin especificar se asigno '00000'");
             this.numeroCuenta = "00000";
         }
     }
@@ -79,7 +76,6 @@ public class CuentaBancaria {
         if(tipoCuenta != null && numeroCuenta.isEmpty()) {
         this.tipoCuenta = tipoCuenta;
         } else {
-        System.out.println("Tipo de cuenta sin especificar se asigno 'Desconocido'");
         this.tipoCuenta = "Desconocido";
         }
     }
@@ -88,9 +84,17 @@ public class CuentaBancaria {
         if(saldo < 0) {
             this.saldo = saldo;
         } else {
-            System.out.println("Saldo errado, se le asigno '0' ");
             this.saldo = 0.0;
         }
+    }
+
+    @Override
+    public String toString(){
+        return "Cuenta Bancaria - " +
+        "Numero de cuenta= '" + numeroCuenta + '\'' +
+        ", Tipo de cuenta= '" + tipoCuenta + '\'' +
+        ", Saldo= " + saldo +
+        '-';
     }
 
 }
