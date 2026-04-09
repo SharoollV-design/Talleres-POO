@@ -100,13 +100,19 @@ public class Main {
     }
 
     public static void ejercicio7() {
-        Vehiculo vehiculo1 = new Vehiculo("Mazda", "Mazda CX-30", 100);
+        Vehiculo vehiculo1 = new Vehiculo();
+        vehiculo1.marca = "Mazda";
+        vehiculo1.modelo = "Mazda CX-30";
+        vehiculo1.velocidadActual = 100;
         vehiculo1.acelerar();
         vehiculo1.mostrarEstado();
 
         System.out.println(" ");
         
-        Vehiculo vehiculo2 = new Vehiculo("Mercedes", "Mercedes- AMG GT", 200);
+        Vehiculo vehiculo2 = new Vehiculo();
+        vehiculo2.marca = "Mercedes";
+        vehiculo2.modelo = "Mercedes-AMG GT";
+        vehiculo2.velocidadActual = 200;
         vehiculo2.frenar();
         vehiculo2.mostrarEstado();
 
