@@ -8,6 +8,10 @@ public class Coche {
 
     private static  int contadorCoches = 0;
 
+    //private static void cambiarMarca(String nuevaMarca){ // Esto es un método estatico incorrecto ya que intenta modificar un atributo
+    //  marca = nuevaMarca; //
+    // }
+
     public Coche(String marca, String modelo){
 
         if(marca == null || marca.isEmpty()) {
@@ -24,6 +28,10 @@ public class Coche {
 
         contadorCoches++;
         this.numeroCoches = contadorCoches;
+    }
+
+    public void cambiarMarca(String nuevaMarca){ // Solucionamos el problema, quitando el método estatico para que actue sobre un objeto
+        this.marca = nuevaMarca;
     }
 
     public String getMarca(){
