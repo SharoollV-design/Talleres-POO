@@ -32,10 +32,10 @@ public class Estudiante {
     }
 
     public void setEdad(int edad){
-        if(edad < 6 && edad > 20) {
-            System.out.println("Edad errada, debe ser entre 6 años y 20 años");
-        } else {
+        if(edad < 6 && edad < 20) {
             this.edad = edad;
+        } else {
+            System.out.println("Edad errada, debe ser entre 6 años y 20 años");
         }
     }
 
